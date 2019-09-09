@@ -14,7 +14,7 @@ describe("List", () => {
     expect(container.getElementsByClassName("note").length).toBe(2);
   });
 
-  it("should show empy list message", () => {
+  it("should render empy list message", () => {
     const notes = [];
     const { container, getByText } = render(<List notes={notes} />);
     expect(container.getElementsByClassName("note").length).toBe(0);

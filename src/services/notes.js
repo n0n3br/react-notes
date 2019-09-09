@@ -1,5 +1,5 @@
-import * as ls from "./localstorage";
-import id from "./id";
+import * as ls from "../helpers/localstorage";
+import id from "../helpers/id";
 
 export const get = () => ls.get("notes") || [];
 export const create = note => {
