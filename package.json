@@ -5,7 +5,12 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@mdi/js": "4.2.95",
+    "@mdi/react": "1.2.1",
+    "@testing-library/react": "9.1.4",
+    "bootstrap": "4.3.1",
     "react": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.12",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1"
   },
@@ -18,5 +23,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
