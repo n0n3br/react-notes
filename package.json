@@ -1,7 +1,7 @@
 {
-  "name": "new",
+  "name": "react-notes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample app to store notes on localstorage. Built with react-bootstrap,. Tests written with jest and react-testing-library",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
